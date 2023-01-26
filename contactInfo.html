@@ -2,13 +2,29 @@
     <html lang="en">
         <head>
             <meta charset="UTF-8">
-            <title>Contact me</title>
+            <title>Contact Me</title>
         </head>
 
         <body>
-            <h3>Contact details:</h3>
+            <h3>My Contact details:</h3>
             <p>iswilson777@gmail.com</p>
-            <p>+233230818085</p>
+            <p>+233230818085</p><br>
+            <hr size="3" noshade="">
+
+            <!--form for submittin message
+            action attribute is where the page goes after submit is pressed-->
+            <form action="mailto:iswilson777@gmail.com" method="post" enctype="text/plain">
+                <label>Your name</label>
+                <input name="yourName" type="text"><br>
+                <label>Your email</label>
+                <input name="yourEmail" type="email"><br>
+                <label>Message</label><br>
+                <textarea name="name" rows="10" cols="30"></textarea><br>
+                <input type="submit"><br>
+
+
+            </form>
+
 
         </body>
     </html>
